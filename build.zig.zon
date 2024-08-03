@@ -1,0 +1,15 @@
+.{
+    .name = "libeigen-zys",
+    .version = "3.4.0",
+    .minimum_zig_version = "0.13.0",
+
+    .dependencies = .{},
+
+    .paths = .{
+        "README.md",
+        "COPYING.MPL2",
+        "build.zig",
+        "build.zig.zon",
+        "Eigen",
+    },
+}

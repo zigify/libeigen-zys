@@ -13,6 +13,8 @@ core.*
 *.bak
 *~
 *build*
+!build.zig
+!build.zig.zon
 *.moc.*
 *.moc
 ui_*
@@ -39,3 +41,5 @@ Makefile
 !scripts/buildtests.in
 !Eigen/Core
 !Eigen/src/Core
+.zig-cache/
+zig-out/
